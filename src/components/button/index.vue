@@ -7,19 +7,15 @@
     </view>
     <view>
       <text>xe-button</text>
-      <xe-button />
     </view>
   </div>
 </template>
 
 <script lang='ts'>
 import { ref, Ref, onMounted, defineComponent } from 'vue';
-import XeButton from '@ltestrepo/components/lib/xe-button/xe-button.vue'
+// import XeButton from '@ltestrepo/components/lib/xe-button/xe-button.vue'
 export default defineComponent({
   name: 'XeButton',
-  components: {
-    XeButton
-  },
   setup() {
     const x: Ref<string> = ref('button');
     return {

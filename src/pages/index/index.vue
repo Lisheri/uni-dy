@@ -25,6 +25,7 @@
       </template>
     </page-container1>
     <btn />
+    <xe-button />
   </view>
 </template>
 
@@ -33,6 +34,7 @@ import { ref, Ref } from 'vue'
 import PageContainer1 from '@/components/page-container/index.vue';
 import btn from '@components/button/index.vue'
 import XeButton from '@ltestrepo/components/lib/xe-button/xe-button.vue';
+// import UniCard from '@dcloudio/uni-ui/lib/uni-card/uni-card.vue';
 const title = ref('Hello')
 const count: Ref<number> = ref(0)
 const type = ref(0)
